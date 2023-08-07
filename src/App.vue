@@ -5,6 +5,9 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import { ref } from 'vue';
+
+const text = ref();
 
 export default {
   name: 'App',
